@@ -70,7 +70,10 @@ class MainActivity2 : AppCompatActivity() {
 
         btnDetails.setOnClickListener {
             startActivity(
-                Intent()
+                Intent(
+                    this,
+                    MainActivity3 :: class.java
+                )
             )
         }
 
