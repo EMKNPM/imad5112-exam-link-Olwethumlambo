@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="add_gear">Add Gear</string>
+</resources>
