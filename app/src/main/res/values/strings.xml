@@ -6,4 +6,9 @@
     <string name="marshmallows">Marshmallows</string>
     <string name="flashlight">Flashlight</string>
     <string name="display">DISPLAY</string>
+    <string name="total_items_packed">Total Items Packed</string>
+    <string name="next">Next</string>
+    <string name="add_gear3">Add Gear</string>
+    <string name="add_gear2">Add Gear</string>
+    <string name="details">DETAILS</string>
 </resources>

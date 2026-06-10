@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E9E1C2"
     tools:context=".MainActivity3">
 
     <Button
@@ -12,6 +13,7 @@
         android:layout_width="142dp"
         android:layout_height="43dp"
         android:text="@string/display"
+        android:backgroundTint="#509752"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.442"
@@ -24,8 +26,10 @@
         android:layout_height="258dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568">
 
         <TableRow
             android:layout_width="match_parent"
@@ -46,10 +50,11 @@
     </TableLayout>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnBack"
         android:layout_width="165dp"
         android:layout_height="44dp"
-        android:text="Button"
+        android:text="BACK TO BASE"
+        android:backgroundTint="#4F9E51"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

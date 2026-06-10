@@ -18,15 +18,9 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var tvFood : TextView
     private lateinit var tvSafety : TextView
     private lateinit var btnNext : Button
+    private lateinit var tvTotal : TextView
+    private lateinit var btnDetails : Button
 
-    //create an array of items in details
-    val item = arrayOf("Tent", "Marshmallows", "Flashlight")
-
-    //create an array of categories
-    val category = arrayOf("Shelter", "Food", "Safety")
-
-    //create an array of quantity
-    val quantity = arrayOf(1, 2, 3)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,12 +33,45 @@ class MainActivity2 : AppCompatActivity() {
         tvShelter = findViewById(R.id.tvShelter)
         tvFood = findViewById(R.id.tvFood)
         tvSafety = findViewById(R.id.tvSafety)
-        btnNext = findViewById(R.id.btnNext)
+        btnDetails = findViewById(R.id.btnDetails)
+        tvTotal = findViewById(R.id.tvTotal)
+
+        //create an array of items in details
+        val item = arrayOf(
+            "Tent",
+            "Marshmallows",
+            "Flashlight"
+        )
+
+        //create an array of categories
+        val category = arrayOf(
+            "Shelter",
+            "Food",
+            "Safety"
+        )
+
+        //create an array of quantity
+        val quantity = arrayOf(
+            1,
+            3,
+            2
+        )
+
+        var totalItems = 0
+      for (i in quantity.indices){
+          totalItems += quantity[i]
+      }
+
+        tvTotal.text = "Total Items Packed: $totalItems"
 
 
-        btnNext.setOnClickListener {
-            val intent = Intent(this, MainActivity3 ::class.java)
-            startActivity(intent)
+
+
+
+        btnDetails.setOnClickListener {
+            startActivity(
+                Intent()
+            )
         }
 
 

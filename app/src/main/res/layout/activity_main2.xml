@@ -26,7 +26,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Gear"
+        android:text="@string/add_gear2"
         android:backgroundTint="#4D9950"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Gear"
+        android:text="@string/add_gear3"
         android:backgroundTint="#39943D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tent"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/marshmallows"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/flashlight"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,10 +91,10 @@
         app:layout_constraintVertical_bias="0.482" />
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnDetails"
         android:layout_width="145dp"
         android:layout_height="49dp"
-        android:text="Next"
+        android:text="@string/details"
         android:textStyle="bold"
         android:backgroundTint="#16AF1E"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,6 +103,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.799" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="130dp"
+        android:layout_height="27dp"
+        android:text="@string/total_items_packed"
+        android:textStyle="italic"
+        android:hint="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
