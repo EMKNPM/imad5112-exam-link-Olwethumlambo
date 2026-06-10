@@ -2,4 +2,8 @@
     <string name="app_name">Exam</string>
     <string name="campsite_commander">Campsite Commander</string>
     <string name="add_gear">Add Gear</string>
+    <string name="tent">Tent</string>
+    <string name="marshmallows">Marshmallows</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="display">DISPLAY</string>
 </resources>
